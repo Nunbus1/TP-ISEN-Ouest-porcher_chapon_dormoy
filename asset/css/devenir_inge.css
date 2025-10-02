@@ -1,54 +1,56 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+html {
+  font-family: Open Sans,sans-serif;
+}
+/* TEXT_IMG */
+.block-devenir {
+  background: #fff;
+  padding: 60px 20px;
 }
 
-.main-content {
-  flex: 1;
-   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-}
-
-
-.ingenieur-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 40px auto;
+/* Conteneur global */
+.block-container {
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Titre en haut */
+.block-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+/* Deux colonnes */
+.block-columns-img {
+  display: flex;
+  align-items: center;
   gap: 40px;
 }
 
-.ingenieur-text {
+/* Colonne texte */
+.block-text {
   flex: 1;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  padding-left: 5%;
+}
+
+.block-text p {
   font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 18px;
 }
 
-.ingenieur-text h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-.ingenieur-text p {
-  margin-bottom: 15px;
-  text-align: justify;
-}
-
-.ingenieur-image {
+/* Colonne image */
+.block-image {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.ingenieur-image img {
+.block-image img {
   max-width: 100%;
   height: auto;
+  border-radius: 6px;
 }
