@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+
+.ingenieur-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 40px auto;
+  max-width: 1200px;
+  gap: 40px;
+}
+
+.ingenieur-text {
+  flex: 1;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.ingenieur-text h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.ingenieur-text p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.ingenieur-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingenieur-image img {
+  max-width: 100%;
+  height: auto;
+}
